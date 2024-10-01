@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <>
       <div className="navigator">
-        <h4>Sudenur Taştekin</h4>
+        <h4><Link href="/">Sudenur Taştekin</Link></h4>
         <ul className="menu">
           <li><Link href="/">Anasayfa</Link></li>
           <li><Link href="/hakkimda">Hakkımda</Link></li>

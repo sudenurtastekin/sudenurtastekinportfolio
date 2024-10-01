@@ -5,7 +5,6 @@ import Nav from  "@/app/nav/page"
 export default function Home() {
   return (
     <>
-    <Nav/>
     </>
   );
 }

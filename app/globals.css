@@ -1,35 +1,73 @@
-body{
+body {
   background-color: #130f40;
   background-image: -webkit-linear-gradient(135deg, #130f40 0%, #000000 74%);
-  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); 
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   color: wheat;
 }
 
-.container{
+.container {
   max-width: 1110px;
   margin: 0 auto;
 }
 
 
-.navigator{
+
+.navigator {
   display: flex;
   justify-content: space-between;
 }
 
-.socialmedia{
+.navigator h4 {
+  font-size: 21px;
+
+  a {
+    text-decoration: none;
+    color: wheat;
+  }
+
+}
+
+.navigator h4 a:hover {
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialmedia {
   display: flex;
-  list-style:none;
+  list-style: none;
   gap: 20px;
+  padding-top: 9px;
+
 }
 
 .socialmedia img {
   background-color: wheat;
-  border-radius: 50%; 
+  border-radius: 50%;
   padding: 5px;
+
 }
 
-.menu{
+.socialmedia img:hover {
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+
+}
+
+.menu {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 30px;
+  padding-top: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.menu a:hover {
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
