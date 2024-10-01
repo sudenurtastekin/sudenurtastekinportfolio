@@ -1,8 +1,7 @@
-import linkedin from "@/assets/linkedin.svg"
-import github from "@/assets/github.svg"
-
-import Image from "next/image"
-
+import Link from "next/link";
+import linkedin from "@/assets/linkedin.svg";
+import github from "@/assets/github.svg";
+import Image from "next/image";
 
 export default function Nav() {
   return (
@@ -10,28 +9,24 @@ export default function Nav() {
       <div className="navigator">
         <h4>Sudenur Taştekin</h4>
         <ul className="menu">
-          <li>Anasayfa</li>
-          <li>Hakkımda</li>
-          <li>Projelerim</li>
-          <li>İletişim</li>
+          <li><Link href="/">Anasayfa</Link></li>
+          <li><Link href="/hakkimda">Hakkımda</Link></li>
+          <li><Link href="/projelerim">Projelerim</Link></li>
+          <li><Link href="/iletisim">İletişim</Link></li>
         </ul>
         <ul className="socialmedia">
-          <li> <Image
-            src={linkedin}
-            alt="LinkedIn"
-            width={24}
-            height={24}
-          /></li>
-          <li> <Image
-            src={github}
-            alt="Github"
-            width={24}
-            height={24}
-          /></li>
+          <li>
+            <a href="https://www.linkedin.com/in/sudenur-ta%C5%9Ftekin-567031204/" target="_blank" >
+              <Image src={linkedin} alt="LinkedIn" width={24} height={24} />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/sudenurtastekin" target="_blank" >
+              <Image src={github} alt="Github" width={24} height={24} />
+            </a>
+          </li>
         </ul>
       </div>
-
-
     </>
-  )
+  );
 }
