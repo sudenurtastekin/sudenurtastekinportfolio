@@ -155,6 +155,7 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
+  margin-bottom: 70px;
   
 
 }
@@ -167,4 +168,66 @@ a {
 
 .yetenek-item:hover{
   transform: scale(1.2);
+}
+
+/*yetenekler sonu*/
+
+/*projeler*/
+
+.projects {
+  padding: 2rem;
+  border-top: 2px solid #ff7e5f;
+  
+  
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: radial-gradient(circle, #feb47b, #ff7e5f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  overflow: hidden; 
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 4px; 
+}
+
+.projects h2{
+  font-size: 32px;
+
+}
+
+.project-card h3 {
+  margin-top: 1rem;
+}
+
+.project-card p {
+  color: #555;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }

@@ -10,13 +10,13 @@ export default function Nav() {
   return (
     <>
       <div className="navigator">
-        <h4><Link href="Anasayfa">Sudenur Taştekin</Link></h4>
-        <ul className="menu">
+        <h4><Link href="/">Sudenur Taştekin</Link></h4>
+        {/* <ul className="menu">
           <li><Link href="/">Anasayfa</Link></li>
-          {/* <li><Link href="/hakkimda">Hakkımda</Link></li> */}
+          <li><Link href="/hakkimda">Hakkımda</Link></li>
           <li><Link href="/projelerim">Projelerim</Link></li>
           <li><Link href="/iletisim">İletişim</Link></li>
-        </ul>
+        </ul> */}
         <ul className="socialmedia">
           <li>
             <a href="https://www.linkedin.com/in/sudenur-ta%C5%9Ftekin-567031204/" target="_blank" >
