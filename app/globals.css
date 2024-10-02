@@ -7,6 +7,10 @@ body {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -79,10 +83,66 @@ body {
 
 /*hero baslangic*/
 
-.hero-container{
+.hero-container {
   display: flex;
+  padding: 30px;
 }
 
-.hero-content-area{
+
+.hero-content-area {
   display: block;
+  padding-left: 35px;
+
+}
+
+.hero-content-area h3 {
+  font-size: 30px;
+}
+
+.sudenur {
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.hero-content {
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.hero-content a {
+  text-decoration: none;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactBtn {
+  /* border-radius: 50px;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  padding: 20px; */
+  padding: 15px 40px;
+  border: 2px solid #feb47b;
+  ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactBtn:hover{
+  border: 2px solid #ff7e5f;
+  ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  background: radial-gradient(circle, #feb47b, #ff7e5f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
