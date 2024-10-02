@@ -120,9 +120,6 @@ a {
 }
 
 .contactBtn {
-  /* border-radius: 50px;
-  background: radial-gradient(circle, #ff7e5f, #feb47b);
-  padding: 20px; */
   padding: 15px 40px;
   border: 2px solid #feb47b;
   ;
@@ -145,4 +142,29 @@ a {
   background: radial-gradient(circle, #feb47b, #ff7e5f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.ability-area{
+  border-top: 2px solid #ff7e5f;
+}
+.ability-area h3{
+  font-size: 32px;
+  margin-left: 30px;
+}
+
+.yetenekler{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  
+
+}
+
+.yetenek-item{
+  margin-inline: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.yetenek-item:hover{
+  transform: scale(1.2);
 }

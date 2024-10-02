@@ -3,14 +3,15 @@ import linkedin from "@/assets/linkedin.svg";
 import github from "@/assets/github.svg";
 import Image from "next/image";
 
+
 export default function Nav() {
   return (
     <>
       <div className="navigator">
-        <h4><Link href="/">Sudenur Taştekin</Link></h4>
+        <h4><Link href="Anasayfa">Sudenur Taştekin</Link></h4>
         <ul className="menu">
           <li><Link href="/">Anasayfa</Link></li>
-          <li><Link href="/hakkimda">Hakkımda</Link></li>
+          {/* <li><Link href="/hakkimda">Hakkımda</Link></li> */}
           <li><Link href="/projelerim">Projelerim</Link></li>
           <li><Link href="/iletisim">İletişim</Link></li>
         </ul>
