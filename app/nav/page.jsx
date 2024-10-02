@@ -1,6 +1,8 @@
 import Link from "next/link";
 import linkedin from "@/assets/linkedin.svg";
 import github from "@/assets/github.svg";
+import cv from "@/assets/cv.svg";
+
 import Image from "next/image";
 
 
@@ -24,6 +26,11 @@ export default function Nav() {
           <li>
             <a href="https://github.com/sudenurtastekin" target="_blank" >
               <Image src={github} alt="Github" width={24} height={24} />
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1G52ijHYMgLfZSihFG6b_gryDjoIN_N9l/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+              <Image src={cv} alt="cv" width={24} height={24} />
             </a>
           </li>
         </ul>
