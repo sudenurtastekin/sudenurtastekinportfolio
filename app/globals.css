@@ -121,8 +121,7 @@ a {
 
 .contactBtn {
   padding: 15px 40px;
-  border: 2px solid #feb47b;
-  ;
+  border: 2px solid #feb47b;;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -231,3 +230,19 @@ a {
 .project-card a:hover {
   text-decoration: underline;
 }
+
+/*projeler sonu*/
+/*footer baslangic*/
+
+.footerContactBtn{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-content: center;
+}
+
+/*footer sonu*/
