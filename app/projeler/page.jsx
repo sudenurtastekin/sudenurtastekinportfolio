@@ -3,7 +3,7 @@ import ecommerce from '@/assets/projects/ecommerce.png';
 import memorygame from '@/assets/projects/memorygame.png';
 import mortgage from '@/assets/projects/mortgage.png';
 import pomodoro from '@/assets/projects/pomodoro.png';
-import tictactoe from '@/assets/projects/tictactoe.png';
+import tictactoe from '@/assets/projects/ticTacToe.png';
 import tipCalc from '@/assets/projects/tipCalc.png';
 
 import React from 'react';
@@ -14,14 +14,14 @@ const projects = [
     title: 'E-Ticaret Projesi',
     description: 'E-Ticaret platformu için oluşturulmuş bir proje.',
     link: 'https://e-commerce-mu-sandy-58.vercel.app/',
-    image: ecommerce // Import edilen görsel
+    image: ecommerce 
   },
   {
     id: 2,
     title: 'Bahşiş Hesaplayıcı',
     description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
     link: 'https://tip-calc-react-rho.vercel.app/',
-    image: tipCalc // Import edilen görsel
+    image: tipCalc 
 
   },
  
@@ -30,28 +30,28 @@ const projects = [
     title: 'Mortgage Hesaplayıcı',
     description: 'Konut kredisi hesaplamaları için bir araç.',
     link: 'https://mortgage-repayment-calc.vercel.app/',
-    image: mortgage // Import edilen görsel
+    image: mortgage 
   },
   {
     id: 4,
     title: 'Pomodoro Zamanlayıcı',
     description: 'Pomodoro tekniğiyle zaman yönetimi için bir uygulama.',
     link: 'https://pomodoro-app-gules-omega.vercel.app/',
-    image: pomodoro // Import edilen görsel
+    image: pomodoro 
   },
   {
     id: 5,
     title: 'Tic Tac Toe',
     description: 'Klasik Tic Tac Toe oyunu.',
     link: 'https://tictactoe-sage-seven.vercel.app/',
-    image: tictactoe // Import edilen görsel
+    image: tictactoe 
   },
   {
     id: 6,
     title: 'Hafıza Oyunu',
     description: 'Zihinsel becerileri geliştiren bir hafıza oyunu.',
     link: 'https://memorygamereact-wine.vercel.app/',
-    image: memorygame // Import edilen görsel
+    image: memorygame 
   }
 
 ];
