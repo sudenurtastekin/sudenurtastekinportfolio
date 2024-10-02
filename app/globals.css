@@ -121,7 +121,8 @@ a {
 
 .contactBtn {
   padding: 15px 40px;
-  border: 2px solid #feb47b;;
+  border: 2px solid #feb47b;
+  ;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -131,7 +132,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.contactBtn:hover{
+.contactBtn:hover {
   border: 2px solid #ff7e5f;
   ;
   text-transform: uppercase;
@@ -142,30 +143,33 @@ a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.ability-area{
+
+/*yetenekler*/
+.ability-area {
   border-top: 2px solid #ff7e5f;
 }
-.ability-area h3{
+
+.ability-area h3 {
   font-size: 32px;
   margin-left: 30px;
 }
 
-.yetenekler{
+.yetenekler {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
   margin-bottom: 70px;
-  
+
 
 }
 
-.yetenek-item{
+.yetenek-item {
   margin-inline: 50px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.yetenek-item:hover{
+.yetenek-item:hover {
   transform: scale(1.2);
 }
 
@@ -176,8 +180,8 @@ a {
 .projects {
   padding: 2rem;
   border-top: 2px solid #ff7e5f;
-  
-  
+
+
 }
 
 .project-list {
@@ -195,7 +199,7 @@ a {
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .project-card:hover {
@@ -203,12 +207,12 @@ a {
 }
 
 .project-image {
-  width: 100%; 
-  height: auto; 
-  border-radius: 4px; 
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
-.projects h2{
+.projects h2 {
   font-size: 32px;
 
 }
@@ -234,7 +238,7 @@ a {
 /*projeler sonu*/
 /*footer baslangic*/
 
-.footerContactBtn{
+.footerContactBtn {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -246,3 +250,34 @@ a {
 }
 
 /*footer sonu*/
+
+
+@media (width <=768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-container img {
+    margin: 0 auto;
+  }
+
+
+  .contactBtn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .yetenekler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+
+
+  }
+}
