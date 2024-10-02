@@ -194,7 +194,7 @@ a {
   background: radial-gradient(circle, #feb47b, #ff7e5f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 1px solid #ddd;
+  border: 1px solid #ff7e5f;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
