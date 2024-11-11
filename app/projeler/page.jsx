@@ -13,20 +13,13 @@ import medium from '@/assets/projects/mediummm.png'
 import React from 'react';
 
 const projects = [
-  
-  // {
-  //   id: 2,
-  //   title: 'Bahşiş Hesaplayıcı',
-  //   description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
-  //   link: 'https://tip-calc-react-rho.vercel.app/',
-  //   image: tipCalc 
 
   {
     id: 1,
     title: 'Frontend Quiz App',
     description: 'Frontend bilginizi ölçebileceğiniz bir site.',
     link: 'https://quizapp-wnext.vercel.app/',
-    image: frontendquiz 
+    image: frontendquiz
 
   },
   {
@@ -34,51 +27,60 @@ const projects = [
     title: 'Medium Blog Sitesi',
     description: 'Yazılarınızı kolayca paylaşabileceğiniz ve ilham alabileceğiniz bir blog uygulaması. ',
     link: 'https://medium-clone-seven-nu.vercel.app/',
-    image: medium 
+    image: medium
   },
   {
     id: 3,
     title: 'TODO APP',
     description: 'Günlük işlerinizi kolayca takip edebileceğiniz, görevlerinizi düzenleyip önceliklendirebileceğiniz basit ve etkili bir to-do uygulaması.',
     link: 'https://todoapp-react-wheat.vercel.app/',
-    image: todoapp 
+    image: todoapp
   },
   {
     id: 4,
     title: 'Pomodoro Zamanlayıcı',
     description: 'Pomodoro tekniğiyle zaman yönetimi için bir uygulama.',
     link: 'https://pomodoro-app-gules-omega.vercel.app/',
-    image: pomodoro 
+    image: pomodoro
   },
   {
     id: 5,
     title: 'Tic Tac Toe',
     description: 'Klasik Tic Tac Toe oyunu.',
     link: 'https://tictactoe-sage-seven.vercel.app/',
-    image: tictactoe 
+    image: tictactoe
   },
   {
     id: 6,
     title: 'Hafıza Oyunu',
     description: 'Zihinsel becerileri geliştiren bir hafıza oyunu.',
     link: 'https://memorygamereact-wine.vercel.app/',
-    image: memorygame 
+    image: memorygame
   },
-  
+
   {
     id: 7,
     title: 'Mortgage Hesaplayıcı',
     description: 'Konut kredisi hesaplamaları için bir araç.',
     link: 'https://mortgage-repayment-calc.vercel.app/',
-    image: mortgage 
+    image: mortgage
   },
   {
     id: 8,
     title: 'E-Ticaret Projesi',
     description: 'E-Ticaret platformu için oluşturulmuş bir proje.',
     link: 'https://e-commerce-mu-sandy-58.vercel.app/',
-    image: ecommerce 
+    image: ecommerce
+  },
+
+  {
+    id: 9,
+    title: 'Bahşiş Hesaplayıcı',
+    description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
+    link: 'https://tip-calc-react-rho.vercel.app/',
+    image: tipCalc
   }
+
 
 ];
 
@@ -97,7 +99,7 @@ const Projects = () => {
                 layout="responsive"
                 width={500}
                 height={300}
-              
+
               />
             </a>
             <h3>{project.title}</h3>
