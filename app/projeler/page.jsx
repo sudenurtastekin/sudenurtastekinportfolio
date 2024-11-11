@@ -5,32 +5,43 @@ import mortgage from '@/assets/projects/mortgage.png';
 import pomodoro from '@/assets/projects/pomodoro.png';
 import tictactoe from '@/assets/projects/ticTacToe.png';
 import tipCalc from '@/assets/projects/tipCalc.png';
+import frontendquiz from '@/assets/projects/frontendquiz.png'
+import todoapp from '@/assets/projects/todoapp.png'
+import medium from '@/assets/projects/mediummm.png'
+
 
 import React from 'react';
 
 const projects = [
+  
+  // {
+  //   id: 2,
+  //   title: 'Bahşiş Hesaplayıcı',
+  //   description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
+  //   link: 'https://tip-calc-react-rho.vercel.app/',
+  //   image: tipCalc 
+
   {
     id: 1,
-    title: 'E-Ticaret Projesi',
-    description: 'E-Ticaret platformu için oluşturulmuş bir proje.',
-    link: 'https://e-commerce-mu-sandy-58.vercel.app/',
-    image: ecommerce 
+    title: 'Frontend Quiz App',
+    description: 'Frontend bilginizi ölçebileceğiniz bir site.',
+    link: 'https://quizapp-wnext.vercel.app/',
+    image: frontendquiz 
+
   },
   {
     id: 2,
-    title: 'Bahşiş Hesaplayıcı',
-    description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
-    link: 'https://tip-calc-react-rho.vercel.app/',
-    image: tipCalc 
-
+    title: 'Medium Blog Sitesi',
+    description: 'Yazılarınızı kolayca paylaşabileceğiniz ve ilham alabileceğiniz bir blog uygulaması. ',
+    link: 'https://medium-clone-seven-nu.vercel.app/',
+    image: medium 
   },
- 
   {
     id: 3,
-    title: 'Mortgage Hesaplayıcı',
-    description: 'Konut kredisi hesaplamaları için bir araç.',
-    link: 'https://mortgage-repayment-calc.vercel.app/',
-    image: mortgage 
+    title: 'TODO APP',
+    description: 'Günlük işlerinizi kolayca takip edebileceğiniz, görevlerinizi düzenleyip önceliklendirebileceğiniz basit ve etkili bir to-do uygulaması.',
+    link: 'https://todoapp-react-wheat.vercel.app/',
+    image: todoapp 
   },
   {
     id: 4,
@@ -52,6 +63,21 @@ const projects = [
     description: 'Zihinsel becerileri geliştiren bir hafıza oyunu.',
     link: 'https://memorygamereact-wine.vercel.app/',
     image: memorygame 
+  },
+  
+  {
+    id: 7,
+    title: 'Mortgage Hesaplayıcı',
+    description: 'Konut kredisi hesaplamaları için bir araç.',
+    link: 'https://mortgage-repayment-calc.vercel.app/',
+    image: mortgage 
+  },
+  {
+    id: 8,
+    title: 'E-Ticaret Projesi',
+    description: 'E-Ticaret platformu için oluşturulmuş bir proje.',
+    link: 'https://e-commerce-mu-sandy-58.vercel.app/',
+    image: ecommerce 
   }
 
 ];
