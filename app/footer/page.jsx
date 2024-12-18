@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1HpLdQjzFRCwlsEG3606apx0W7HKSZrDE/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+            <a href="https://drive.google.com/file/d/1K7tO67vnGNUOhCwDimPX7miUFFldbtEg/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
               <Image src={cv} alt="cv" width={24} height={24} />
             </a>
           </li>
