@@ -17,7 +17,7 @@ export default function Footer() {
           <li><Link href="/projelerim">Projelerim</Link></li>
           <li><Link href="/iletisim">İletişim</Link></li>
         </ul> */}
-          <a className="footerContactBtn" href="mailto:sude348tastekin@gmail.com">Bana Ulaşın</a>
+          <a className="footerContactBtn" href="mailto:tastekinsudenur@gmail.com">Bana Ulaşın</a>
 
 
         <ul className="socialmedia">
@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1K7tO67vnGNUOhCwDimPX7miUFFldbtEg/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+            <a href="https://drive.google.com/file/d/1eRxBHTGa1HZiBDxB11ooyTDwVGGJ3UB-/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
               <Image src={cv} alt="cv" width={24} height={24} />
             </a>
           </li>
