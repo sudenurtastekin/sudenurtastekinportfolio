@@ -6,8 +6,9 @@ import pomodoro from '@/assets/projects/pomodoro.png';
 import tictactoe from '@/assets/projects/ticTacToe.png';
 import tipCalc from '@/assets/projects/tipCalc.png';
 import frontendquiz from '@/assets/projects/frontendquiz.png'
-import todoapp from '@/assets/projects/todoapp.png'
+import todoapp from '@/assets/projects/todo-app.jpeg'
 import medium from '@/assets/projects/mediummm.png'
+import mentorum from '@/assets/projects/mentorum.png'
 
 
 import React from 'react';
@@ -16,11 +17,10 @@ const projects = [
 
   {
     id: 1,
-    title: 'Frontend Quiz App',
-    description: 'Frontend bilginizi ölçebileceğiniz bir site.',
-    link: 'https://quizapp-wnext.vercel.app/',
-    image: frontendquiz
-
+    title: 'Mentorum',
+    description: 'Mentorum.com.tr projesinde yönetim ekibinde yer alırken aynı zamanda frontend geliştirme sürecinde ekiple birlikte çalıştım. Mentorum.com.tr projesi, alanında uzman mentorlarla bireyleri bir araya getirerek kişisel ve profesyonel gelişimi destekleyen bir platformdur.',
+    link: 'https://mentorum.com.tr/',
+    image: mentorum
   },
   {
     id: 2,
@@ -31,10 +31,10 @@ const projects = [
   },
   {
     id: 3,
-    title: 'TODO APP',
-    description: 'Günlük işlerinizi kolayca takip edebileceğiniz, görevlerinizi düzenleyip önceliklendirebileceğiniz basit ve etkili bir to-do uygulaması.',
-    link: 'https://todoapp-react-wheat.vercel.app/',
-    image: todoapp
+    title: 'Frontend Quiz App',
+    description: 'Frontend bilginizi ölçebileceğiniz bir site.',
+    link: 'https://quizapp-wnext.vercel.app/',
+    image: frontendquiz
   },
   {
     id: 4,
@@ -75,10 +75,10 @@ const projects = [
 
   {
     id: 9,
-    title: 'Bahşiş Hesaplayıcı',
-    description: 'Restoranlarda bahşiş hesaplamak için bir uygulama.',
-    link: 'https://tip-calc-react-rho.vercel.app/',
-    image: tipCalc
+    title: 'TODO APP',
+    description: 'Günlük işlerinizi kolayca takip edebileceğiniz, görevlerinizi düzenleyip önceliklendirebileceğiniz basit ve etkili bir to-do uygulaması.',
+    link: 'https://todoapp-react-wheat.vercel.app/',
+    image: todoapp
   }
 
 
